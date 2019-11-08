@@ -1,0 +1,10 @@
+/* /// Cabeçalho e menu de navegação*/
+
+. header {}
+
+
+/*Barra de menu*/
+.navbar .navbar-collapse{
+    flex-direction: column;
+    align-items: flex-start;
+}
