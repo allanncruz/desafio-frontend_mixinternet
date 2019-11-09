@@ -2,11 +2,114 @@
 @import url(variaveis.css);
 
 
-. header {}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+
+.header {
+    background: var(--primary-color);
+}
 
 
-/*Barra de menu*/
-.navbar .navbar-collapse{
-    flex-direction: column;
-    align-items: flex-start;
+/*Menu de navegação*/
+.navbar {
+    text-transform: uppercase;
+    height: 140px;
+}
+
+    /*Logomarca*/
+    .navbar-brand{
+        position: relative;
+    }
+    .navbar-brand_img{
+        z-index: 9;
+        position: relative;
+    }
+    .navbar-brand::before{
+        content: "";
+        width: 390%;
+        height: 145px;
+        position: absolute;
+        right: 0;
+        top: -9px;
+        background: var(--white-color);
+    }
+
+    .navbar-collapse{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-up, .navbar-low{
+        padding: .69em 0;
+    }
+        .navbar-up{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .navbar-up li{
+            display: flex;
+        }
+
+        .navbar-up_social i{
+            margin: 0 2.5px;
+        }
+
+        .navbar-low{
+            border-top: solid 1px #e5cf02;
+        }
+
+        .navbar-low .nav-link{
+            font-size: 13px;
+            font-weight: 300;
+            color: var(--black-color);
+            /*margin: 0 .4em;*/
+        }
+
+
+        .navbar .btn{
+            max-width: 170px;
+            width: 100%;
+            line-height: 80px;
+        }
+
+
+/*Icones*/
+.icons{
+
+}
+    .circle-icon{
+        background: var(--white-color);
+        width: 29px;
+        height: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+    }
+    .icon-en::before{
+        content: url("../images/en.png");
+    }
+    .icon-es::before{
+        content: url("../images/es.png");
+    }
+    .icon-instagram::before{
+        content: url("../images/instagram.png");
+    }
+    .icon-facebook::before{
+        content: url("../images/facebook.png");
+    }
+    .icon-twitter::before{
+        content: url("../images/twitter.png");
+    }
+    .icon-youtube::before{
+        content: url("../images/youtube.png");
+    }
+
+/*Botões*/
+.btn-danger{
+    background: var(--red-color);
 }
