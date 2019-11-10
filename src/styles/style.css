@@ -4,10 +4,20 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+/*Textos*/
+.title{
+    font-weight: 900;
+    font-size: 24px;
+}
+.subtitle{
+    color: #777777;
+    font-size: 18px;
 }
 
 /*Header*/
-
 .header {
     background: var(--primary-color);
 }
@@ -143,12 +153,6 @@ body{
         content: url("../images/heart.png");
     }
 
-/*Botões*/
-.btn-danger{
-    background: var(--red-color);
-}
-
-
 /*Barra de navegação*/
 .breadcrumb{
     height: 165px;
@@ -167,6 +171,29 @@ body{
         color: #ddd;
     }
 
+
+/*Seção formulário de contato*/
+.contact{
+    padding: 40px 0;
+}
+
+.contact form textarea{
+    height: 210px;
+}
+
+
+/*Definições padrões para formulários*/
+
+form{
+    margin: 30px 0;
+}
+    form label{
+        color: #999;
+    }
+
+    form .form-control{
+        border-radius: 0;
+    }
 @media (min-width: 1200px){
     .container {
         max-width: 1200px;
