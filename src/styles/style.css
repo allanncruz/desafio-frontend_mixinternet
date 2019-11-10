@@ -79,6 +79,7 @@ body{
         .navbar .btn{
             max-width: 170px;
             width: 100%;
+            height: 80px;
             line-height: 80px;
             border-radius: 10px;
         }
@@ -86,7 +87,7 @@ body{
 
 /*Icones*/
 .icons{
-
+    vertical-align: middle;
 }
     .circle-icon{
         background: var(--white-color);
@@ -114,6 +115,9 @@ body{
     }
     .icon-youtube::before{
         content: url("../images/youtube.png");
+    }
+    .icon-heart::before{
+        content: url("../images/heart.png");
     }
 
 /*Botões*/
