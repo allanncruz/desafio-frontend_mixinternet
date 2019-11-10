@@ -38,24 +38,30 @@ body{
     }
 
     .navbar-collapse{
+        padding: 0 30px 0 40px;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navbar-up, .navbar-low{
-        padding: .69em 0;
+    .navbar-nav{
+        height: 70px;
+        align-items: center;
     }
         .navbar-up{
             display: flex;
             justify-content: space-between;
+            align-items: center;
             width: 100%;
+        }
+        .nav-item{
+            margin-bottom: 7px;
         }
         .navbar-up li{
             display: flex;
         }
 
-        .navbar-up_social i{
-            margin: 0 2.5px;
+        .navbar-up_social a{
+            padding: .5rem 0.15625rem
         }
 
         .navbar-low{
@@ -74,6 +80,7 @@ body{
             max-width: 170px;
             width: 100%;
             line-height: 80px;
+            border-radius: 10px;
         }
 
 
@@ -112,4 +119,10 @@ body{
 /*Botões*/
 .btn-danger{
     background: var(--red-color);
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
 }
