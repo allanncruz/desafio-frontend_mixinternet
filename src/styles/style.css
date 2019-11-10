@@ -113,8 +113,11 @@ body{
             max-width: 170px;
             width: 100%;
             height: 80px;
+            padding: 0;
             line-height: 80px;
             border-radius: 10px;
+            font-size: 17px;
+            font-weight: 500;
         }
 
 
@@ -194,6 +197,31 @@ form{
     form .form-control{
         border-radius: 0;
     }
+
+
+
+/*Definições padrões para Botões*/
+.btn{
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: .8rem 3rem;
+    border: 0;
+    transition: .3s;
+}
+
+.btn:hover{
+    filter: contrast(2);
+}
+    .btn-danger{
+        background: var(--red-color);
+    }
+    .btn-secondary{
+        background: var(--secondary-color) !important;
+    }
+
+
 @media (min-width: 1200px){
     .container {
         max-width: 1200px;
