@@ -211,6 +211,23 @@ h1, h2, h3, h4, h5,h6{
     object-fit: scale-down;
 }
 
+/*Menu do rodape*/
+.footer-nav h6{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+    .footer-nav_item{
+        font-size: 13px;
+        color: #999;
+    }
+    .footer-nav a{
+        color: #999;
+        line-height: 25px;
+    }
+        .footer-nav a:hover{
+            color: var(--secondary-color);
+        }
+
 /*Definições padrões para formulários*/
 
 form{
