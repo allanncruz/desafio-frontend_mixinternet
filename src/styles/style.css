@@ -1,5 +1,5 @@
 /*Variáveis*/
-@import url(variaveis.css);
+@import url(variables.css);
 
 
 body{
@@ -215,6 +215,8 @@ h1, h2, h3, h4, h5,h6{
 .footer-nav h6{
     font-size: 13px;
     text-transform: uppercase;
+    color: var(--black-color);
+    line-height: 18px;
 }
     .footer-nav_item{
         font-size: 13px;
@@ -224,7 +226,7 @@ h1, h2, h3, h4, h5,h6{
         color: #999;
         line-height: 25px;
     }
-        .footer-nav a:hover{
+        .footer-nav a:hover, .footer-nav h6:hover{
             color: var(--secondary-color);
         }
 
