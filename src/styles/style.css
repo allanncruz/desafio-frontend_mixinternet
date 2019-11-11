@@ -7,14 +7,18 @@ body{
     color: #333;
 }
 
+h1, h2, h3, h4, h5,h6{
+    font-weight: 900;
+}
+
 /*Textos*/
 .title{
-    font-weight: 900;
     font-size: 24px;
 }
 .subtitle{
     color: #777777;
     font-size: 18px;
+    font-weight: 500;
 }
 
 /*Header*/
@@ -180,9 +184,25 @@ body{
     padding: 40px 0;
 }
 
-.contact form textarea{
-    height: 210px;
-}
+    .contact form textarea{
+        height: 210px;
+    }
+    .contact-sector{
+        display: flex;
+        justify-content: center;
+        margin: 70px 0;
+    }
+    .contact-sector_item{
+        text-align: center;
+        margin: 0 2em;
+        color: #999;
+        font-size: 15px;
+    }
+        .contact-sector_item h6{
+            font-style:italic;
+            margin: 0;
+            font-size: 15px;
+        }
 
 
 /*Definições padrões para formulários*/
