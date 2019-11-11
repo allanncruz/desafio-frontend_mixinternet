@@ -4,10 +4,24 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5,h6{
+    font-weight: 900;
+}
+
+/*Textos*/
+.title{
+    font-size: 24px;
+}
+.subtitle{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /*Header*/
-
 .header {
     background: var(--primary-color);
 }
@@ -103,8 +117,11 @@ body{
             max-width: 170px;
             width: 100%;
             height: 80px;
+            padding: 0;
             line-height: 80px;
             border-radius: 10px;
+            font-size: 17px;
+            font-weight: 500;
         }
 
 
@@ -143,12 +160,6 @@ body{
         content: url("../images/heart.png");
     }
 
-/*Botões*/
-.btn-danger{
-    background: var(--red-color);
-}
-
-
 /*Barra de navegação*/
 .breadcrumb{
     height: 165px;
@@ -166,6 +177,70 @@ body{
         padding: 0 14px;
         color: #ddd;
     }
+
+
+/*Seção formulário de contato*/
+.contact{
+    padding: 40px 0;
+}
+
+    .contact form textarea{
+        height: 210px;
+    }
+    .contact-sector{
+        display: flex;
+        justify-content: center;
+        margin: 70px 0;
+    }
+    .contact-sector_item{
+        text-align: center;
+        margin: 0 2em;
+        color: #999;
+        font-size: 15px;
+    }
+        .contact-sector_item h6{
+            font-style:italic;
+            margin: 0;
+            font-size: 15px;
+        }
+
+
+/*Definições padrões para formulários*/
+
+form{
+    margin: 30px 0;
+}
+    form label{
+        color: #999;
+    }
+
+    form .form-control{
+        border-radius: 0;
+    }
+
+
+
+/*Definições padrões para Botões*/
+.btn{
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: .8rem 3rem;
+    border: 0;
+    transition: .3s;
+}
+
+.btn:hover{
+    filter: contrast(2);
+}
+    .btn-danger{
+        background: var(--red-color);
+    }
+    .btn-secondary{
+        background: var(--secondary-color) !important;
+    }
+
 
 @media (min-width: 1200px){
     .container {
