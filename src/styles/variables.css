@@ -4,6 +4,8 @@
     --secondary-color: #ff6400;
     --light-color: #eee;
     --white-color: #fff;
+    --dark-color: #333;
     --black-color: #000;
     --red-color: #da251b;
+    --gradient-primary-secondary: linear-gradient(163deg, #f6c602 44%, #f7941d 70%);
 }
