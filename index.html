@@ -25,13 +25,21 @@
             <a class="navbar-brand p-0 m-0" href="#">
                 <img src="src/images/logo.png" class="navbar-brand_img mr-3" rel="Navbar" title="Navbar">
             </a>
+            <div class="d-block d-lg-none">
+                <a class="" href="#">
+                    <i class="icons icon-en"></i>
+                </a>
+                <a class="" href="#">
+                    <i class="icons icon-es"></i>
+                </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav navbar-up">
-                    <li class="navbar-up_translate">
+                    <li class="navbar-up_translate d-none d-lg-block">
                         <a class="nav-link pl-0" href="#">
                             <i class="icons icon-en"></i>
                         </a>
@@ -133,13 +141,13 @@
                                     <input type="tel" class="form-control" id="uf">
                                 </div>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-7">
                                 <div class="form-group">
                                     <label for="cidade">Cidade</label>
                                     <input type="text" class="form-control" id="cidade">
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-5">
                                 <div class="form-group">
                                     <label for="setor">Setor</label>
                                     <input type="text" class="form-control" id="setor">
@@ -154,7 +162,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="text-right mt-3">
+                        <div class="text-md-right text-center mt-3">
                             <input type="submit" class="btn btn-secondary" value="Enviar mensagem">
                         </div>
                     </div>
@@ -227,7 +235,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="row footer-nav">
-                    <div class="col-md-4">
+                    <div class="col-4">
                         <h6>A Casa</h6>
                         <ul class="list-unstyled">
                             <li class="footer-nav__item">
@@ -259,7 +267,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-4">
                         <h6>Colabore</h6>
                         <ul class="list-unstyled">
                             <li class="footer-nav__item">
@@ -285,7 +293,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-4">
                         <h6>Mídia</h6>
                         <ul class="list-unstyled">
                             <li class="footer-nav__item">
@@ -323,7 +331,7 @@
                     <h5 class="text-uppercase text-center mb-3">
                         <span class="font-weight-light">Assine Nosso</span> Informativo
                     </h5>
-                    <form class="d-flex justify-content-between m-0">
+                    <form class="d-lg-flex d-block justify-content-between m-0">
                         <input type="text" class="footer-informative__name form-control" placeholder="Nome">
 
                         <input type="text" class="footer-informative__mail form-control" placeholder="Username">
