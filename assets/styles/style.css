@@ -117,6 +117,9 @@ body{
 /*Icones*/
 .icons{
     vertical-align: middle;
+    line-height: 0;
+    }
+    .icons:before{
     }
     .circle-icon{
         background: var(--white-color);
