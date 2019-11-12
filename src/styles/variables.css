@@ -7,5 +7,5 @@
     --dark-color: #333;
     --black-color: #000;
     --red-color: #da251b;
-    --gradient-primary-secondary:linear-gradient(163deg, #f6c602 0%, #f7941d 100%);
+    --gradient-primary-secondary: linear-gradient(163deg, #f6c602 44%, #f7941d 70%);
 }

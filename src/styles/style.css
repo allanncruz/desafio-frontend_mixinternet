@@ -196,13 +196,13 @@ p, h6{
         justify-content: center;
         margin: 70px 0;
     }
-    .contact-sector_item{
+    .contact-sector__item{
         text-align: center;
         margin: 0 2em;
         color: #999;
         font-size: 15px;
     }
-        .contact-sector_item h6{
+        .contact-sector__item h6{
             font-style:italic;
             margin: 0;
             font-size: 15px;
@@ -211,7 +211,7 @@ p, h6{
 
 
 /*Lista de parceitos*/
-.partners-item_img{
+.partners-item__img{
     object-fit: scale-down;
 }
 
@@ -224,7 +224,7 @@ p, h6{
         color: var(--dark-color);
         line-height: 18px;
     }
-        .footer-nav_item{
+        .footer-nav__item{
             font-size: 13px;
             color: #999;
         }
@@ -249,13 +249,13 @@ p, h6{
             border-radius: 5px;
             border: 0;
         }
-        .footer-informative_name{
+        .footer-informative__name{
             width: 140px;
         }
-        .footer-informative_mail{
+        .footer-informative__mail{
             width: 170px;
         }
-        .footer-informative_btn{
+        .footer-informative__btn{
             width: 120px;
             height: 40px;
             line-height: 15px;
@@ -290,13 +290,13 @@ p, h6{
     line-height: 37px;
     padding: 0 25px;
 }
-    .footer-address_btn-number{
+    .footer-address__btn-number{
         font-weight: 500;
     }
-    .footer-address_btn-separator{
+    .footer-address__btn-separator{
         margin: 0 10px;
     }
-    .footer-address_btn-call{
+    .footer-address__btn-call{
         color: var(--white-color);
     }
 
@@ -306,6 +306,11 @@ p, h6{
     width: 100%;
     height: 370px;
     border: 0;
+}
+
+
+/*Assinatura */
+.footer-end{
 }
 
 /*Definições padrões para formulários*/
