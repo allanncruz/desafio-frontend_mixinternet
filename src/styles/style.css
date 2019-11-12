@@ -311,6 +311,8 @@ p, h6{
 
 /*Assinatura */
 .footer-end{
+    height: 80px;
+    line-height: 80px;
 }
 
 /*Definições padrões para formulários*/
