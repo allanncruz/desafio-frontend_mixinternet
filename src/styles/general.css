@@ -1,13 +1,21 @@
 /*Definir variáveis para cores personalizadas*/
 :root {
+
+    /*Cores*/
     --primary-color: #f6ee33;
     --secondary-color: #ff6400;
     --light-color: #eee;
     --white-color: #fff;
+    --gray-color: #999;
     --dark-color: #333;
     --black-color: #000;
     --red-color: #da251b;
     --gradient-primary-secondary: linear-gradient(163deg, #f6c602 44%, #f7941d 70%);
+
+    /*Textos*/
+    --text-color: var(--dark-color);
+    --title-color: var(--dark-color);
+    --subtitle-color: #777;
 }
 
 
@@ -92,7 +100,7 @@ p, h6{
     font-size: 24px;
 }
 .subtitle{
-    color: #777777;
+    color: var(--subtitle-color);
     font-size: 18px;
     font-weight: 500;
 }

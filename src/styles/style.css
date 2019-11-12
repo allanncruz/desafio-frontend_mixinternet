@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    color: #333;
+    color: var(--text-color);
 }
 
 /*Header*/
@@ -157,7 +157,7 @@ body{
 }
 .breadcrumb-item.active{
     font-size: 24px;
-    color: #999;
+    color: var(--gray-color);
 }
 .breadcrumb-item+.breadcrumb-item::before{
     padding: 0 14px;
@@ -181,7 +181,7 @@ body{
 .contact-sector__item{
     text-align: center;
     margin: 0 2em;
-    color: #999;
+    color: var(--gray-color);
     font-size: 15px;
 }
 .contact-sector__item h6{
@@ -208,10 +208,10 @@ body{
 }
 .footer-nav__item{
     font-size: 13px;
-    color: #999;
+    color: var(--gray-color);
 }
 .footer-nav a{
-    color: #999;
+    color: var(--gray-color);
     line-height: 25px;
 }
 .footer-nav a:hover, .footer-nav h6:hover{
@@ -251,7 +251,7 @@ body{
     text-transform: uppercase;
 }
 .footer-address p{
-    color: #999;
+    color: var(--gray-color);
     line-height: 23px;
 }
 
