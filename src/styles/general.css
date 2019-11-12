@@ -1,0 +1,98 @@
+/*Definir variáveis para cores personalizadas*/
+:root {
+    --primary-color: #f6ee33;
+    --secondary-color: #ff6400;
+    --light-color: #eee;
+    --white-color: #fff;
+    --dark-color: #333;
+    --black-color: #000;
+    --red-color: #da251b;
+    --gradient-primary-secondary: linear-gradient(163deg, #f6c602 44%, #f7941d 70%);
+}
+
+
+/*Padrões para botões*/
+.btn{
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: .8rem 3rem;
+    border: 0;
+    transition: .3s;
+}
+
+.btn:hover{
+    filter: contrast(2);
+}
+.btn-danger{
+    background: var(--red-color);
+}
+.btn-secondary{
+    background: var(--secondary-color) !important;
+}
+.btn-primay{
+    background: var(--gradient-primary-secondary) !important;
+}
+.btn-outline-light{
+    border: solid 1px var(--white-color);
+}
+
+
+/*Padrões para formulários*/
+form{
+    margin: 30px 0;
+}
+form label{
+    color: #999;
+}
+
+form .form-control{
+    border-radius: 0;
+    height: 40px;
+    font-size: 13px;
+}
+
+
+/*Definir padrão para Owl Carousel*/
+.owl-carousel{
+    margin: 30px 0;
+}
+.owl-nav{
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+    height: 0;
+}
+.owl-nav button{
+    position: relative;
+    bottom: 6.2rem;
+    outline: none;
+}
+.owl-nav button span{
+    font-size: 55px;
+    color: var(--secondary-color);
+}
+.owl-nav button span:hover{
+    opacity: .7;
+}
+
+
+/*Textos*/
+h1, h2, h3, h4, h5,h6{
+    font-weight: 900;
+}
+
+p, h6{
+    font-size: 13px;
+}
+
+/*Textos*/
+.title{
+    font-size: 24px;
+}
+.subtitle{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 500;
+}
