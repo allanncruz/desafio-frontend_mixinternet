@@ -184,6 +184,7 @@ body{
     height: 216px;
 }
     .contact-sector{
+        overflow: hidden;
         display: flex;
         justify-content: center;
         margin: 70px 0;
@@ -334,6 +335,9 @@ body{
     }
     .navbar-toggler:focus{
         outline: none;
+    }
+    .navbar-up_translate{
+        display: none;
     }
     .navbar-collapse{
         display: flex;
