@@ -151,7 +151,13 @@ body{
 .breadcrumb{
     height: 165px;
     background: var(--light-color);
+    overflow: hidden;
 }
+    .breadcrumb-mascot{
+        position: absolute;
+        top: -50px;
+        right: 20px;
+    }
     .breadcrumb-item{
         font-size: 36px;
         text-transform: uppercase;
