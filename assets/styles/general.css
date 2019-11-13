@@ -50,7 +50,11 @@ p, h6{
 }
 
     .btn:hover{
-        filter: contrast(2);
+        filter: brightness(90%);
+    }
+    .btn:focus{
+        filter: brightness(80%);
+        box-shadow: none !important;
     }
     .btn-danger{
         background: var(--red-color);
@@ -93,7 +97,7 @@ form{
     }
         .owl-nav button{
             position: relative;
-            bottom: 6.2rem;
+            bottom: 6.8rem;
             outline: none;
         }
         .owl-nav button span{
