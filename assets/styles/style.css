@@ -339,6 +339,10 @@ body{
     .navbar-toggler:focus{
         outline: none;
     }
+    .navbar-translate{
+        flex: auto;
+        margin-left: 12px;
+    }
     .navbar-up_translate{
         display: none;
     }
